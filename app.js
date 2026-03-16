@@ -37,7 +37,7 @@ function transposeChord(chord, semitones) {
 // ── State ──
 let manifest = [];
 let currentSong = null;
-let isTransposed = false;
+let showTiosShapes = false;
 let fontSize = 17;
 
 // ── DOM refs ──
@@ -201,9 +201,8 @@ function setupEvents() {
 
     // Transpose toggle
     transposeToggle.addEventListener('click', () => {
-        isTransposed = !isTransposed;
-        transposeToggle.classList.toggle('active', isTransposed);
-        toggleLabel.textContent = isTransposed ? "Band's Absolute" : "Tio's Shapes";
+        showTiosShapes = !showTiosShapes;
+        transposeToggle.classList.toggle('active', showTiosShapes);
         if (currentSong) renderSong(currentSong);
     });
 
@@ -246,9 +245,8 @@ function setupEvents() {
 
 async function openSong(song, skipPush) {
     currentSong = song;
-    isTransposed = false;
+    showTiosShapes = false;
     transposeToggle.classList.remove('active');
-    toggleLabel.textContent = "Tio's Shapes";
 
     // Update header
     songTitle.textContent = song.title;
@@ -292,7 +290,8 @@ function renderSong(song) {
     if (!raw) return;
 
     const lines = raw.split('\n');
-    const semitones = song.semitones || 0;
+    const semitonesToAbsolute = song.transpose || 0;
+    
     const html = [];
 
     for (const line of lines) {
@@ -319,7 +318,7 @@ function renderSong(song) {
 
         // Parse inline [Chord] brackets
         if (trimmed.includes('[')) {
-            html.push(renderChordLine(trimmed, isTransposed ? semitones : 0));
+            html.push(renderChordLine(trimmed, showTiosShapes ? 0 : semitonesToAbsolute));
         } else {
             // Plain lyric line
             html.push(`<div class="chord-line">${escapeHtml(trimmed)}</div>`);
@@ -329,10 +328,10 @@ function renderSong(song) {
     songBody.innerHTML = html.join('\n');
 
     // Update key display based on transpose state
-    if (isTransposed && song.absolute_key && song.absolute_key !== '?') {
-        keyDisplay.textContent = song.absolute_key;
+    if (showTiosShapes) {
+        keyDisplay.textContent = song.key || song.absolute_key || '?';
     } else {
-        keyDisplay.textContent = song.written_key || song.absolute_key;
+        keyDisplay.textContent = song.absolute_key || song.key || '?';
     }
 }
 
