@@ -1,34 +1,61 @@
 {title: No Lonesome Tune}
-{artist: Emmylou Harris}
-{performer: Hazy Hollows / Tio Savich}
+{artist: Townes Van Zandt}
+{performer: Hazy Hollows}
 {capo: 0}
 {tuning: standard}
 {key: C}
 {absolute_key: C}
 {transpose: 0}
 {type: cover}
+{start_of_part: Intro}
+[C][G]
+{end_of_part}
 
-I ain’t going to si[C]ng no lonesome tune
-I did decide that very day
-Ah, b[C]abe, I’m a coming soon
-That I would like to live that way
-I [G]cannot believe I stayed so long awa[C]y
-And now I know I just been wasting time
-But a g[C]irl must look around
-It’s with you that I should be
-You’re the s[C]weetest thing I’ve found
-And if you feel the same ‘bout me
-All your l[G]ost high roller’s rolling home to[C]day
-Well I’m headed home along the straightest line
-Well, my Dadd[C]y said to me
-I ain’t going to sing no lonesome tune
-“Girl, it’s [C]hard as you will see
-Ah, babe, I’m a coming soon
-To f[G]ind someone upon whom to rely”[C]
-I cannot believe I stayed so long away
-In the [C]kitchen, Mama sneezed
-But a girl must look around
-And h[C]e grinned big as you please
-You’re the sweetest thing I’ve found
-Said, [G]“Bless you” and a tear come to his [C]eye
-All your lost high roller’s rolling home today
+
+{start_of_verse: Verse 1}
+I ain't going to [C]sing no lonesome tune
+Ah, [C]babe, I'm a coming soon
+I [G]cannot believe I stayed so long a[C]way
+But a [C]man must look around
+You're the swee[C]test thing I've found
+All your lo[G]st high roller's rolling home to[C]day
+{end_of_verse}
+
+
+{start_of_verse: Verse 2}
+Well, my [C]Daddy said to me
+"Son, it's [C]hard as you will see
+To [G]find someone upon whom to re[C]ly
+In the kit[C]chen, Mama sneezed
+And he [C]grinned big as you please
+Said, "[G]Bless you" and a tear come to his [C]eye
+{end_of_verse}
+
+
+{comment: Guitar Intermission}
+[C][G][C][G]
+
+
+{start_of_verse: Verse 3}
+I did de[C]cide that very day
+That I would [C]like to live that way
+And now I [G]know I just been wasting [C]time
+It's with [C]you that I should be
+And if you [C]feel the same 'bout me
+Well I'm [G]headed home along the straightest [C]line
+{end_of_verse}
+
+
+{start_of_verse: Verse 1}
+Ain't going to [C]sing no lonesome tune
+Ah, [C]babe, I'm a coming soon
+I can[G]not believe I stayed so long a[C]way
+But a [C]man must look around
+And you're the swee[C]test thing I've found
+All your [G]lost high roller's rolling home to[C]day
+{end_of_verse}
+
+
+{start_of_part: Outro}
+[C][G][C][G][C][G][C][G][C][G][C][G][C][G][C]
+{end_of_part}

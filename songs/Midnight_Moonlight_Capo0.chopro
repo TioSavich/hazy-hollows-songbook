@@ -1,43 +1,69 @@
 {title: Midnight Moonlight}
 {artist: Peter Rowan}
-{performer: Hazy Hollows / Tio Savich}
+{performer: Hazy Hollows}
 {capo: 0}
 {tuning: standard}
 {key: C}
 {absolute_key: C}
 {transpose: 0}
 {type: cover}
+{start_of_part: Intro}
+[C]
+{end_of_part}
 
-[C]If you ever get lonesome[C]
-If you ever feel sorrow
-[G]And you’re down in San Antone[G]
-For the deeds that you have done
-[F]Just beg, steal or[G] borrow
-With no hope for tomorrow
-Two nickels or a d[E]ime
-In the setting of the su-uu-un
-Call me on the pho[F]-o[C]o-[G]one
-And the oceans are howlin’
-I’ll meet you at the Alamo [C]Mission[G]
-For things that might have been
-And we will say our pr[G]ayers
-And the last good morning sunrise will be
-[F]E                      Am[G]
-The Holy Ghost and the Virgin Mother will heal us
-The brightest you’ve ever seen
-E            Am
-As we kneel there
-In th[F]e midnig[C]ht,
-In the midnight,
-[F]Moonlight[C],
-Moonlight,
-[G]Midnight, m[E]oonlight,[C] mid-night
-Midnight, moonlight, midnight
-In th[F]e midnig[C]ht,
-In the midnight,
-[F]Moonlight[C],
-Moonlight,
-[G]Midnight, [E]moonlight[C], midnight
-Midnight, moonlight, midnight
-[Outro]
-Midnight, moonlight, mid-night
+{start_of_verse: Verse 1}
+[C]If you ever get lonesome
+[G]And you're down in San Antone
+[F]Just beg, steal or [G]borrow
+Two nickels or a [E]dime
+[Am]Call me on the [F]pho-[C]oo-[G]one
+I'll meet you at the Alamo [C]Mission
+[G]And we will say our prayers
+[F]The Holy Ghost and the [G]Virgin Mother will heal us
+[E]As we kneel the[Am]re
+{end_of_verse}
+
+
+{start_of_chorus: Chorus}
+In the [F]midnight,[C]
+[F]Moonlight,[C]
+[G]Midnight, [E]moonlight, mid[C]night
+{end_of_chorus}
+
+
+{start_of_chorus: Chorus}
+In the [F]midnight,[C]
+[F]Moonlight,[C]
+[G]Midnight, [E]moonlight, mid[C]night
+{end_of_chorus}
+
+
+{start_of_verse: Verse 2}
+[C]If you ever feel sorrow
+[G]For the deeds that you have done
+[F]With no hope for to[G]morrow
+In the setting of the [Am]su-[F]uu-[G]un
+And the oceans are [C]howlin'
+[G]For things that might have been
+[F]And the last good morning [G]sunrise will be
+The [E]brightest you've ever [Am]seen
+{end_of_verse}
+
+
+{start_of_chorus: Chorus}
+In the [F]midnight,[C]
+[F]Moonlight,[C]
+[G]Midnight, [E]moonlight, mid[C]-night
+{end_of_chorus}
+
+
+{start_of_chorus: Chorus}
+In the [F]midnight,[C]
+[F]Moonlight,[C]
+[G]Midnight, [E]moonlight, mid[C]night
+{end_of_chorus}
+
+
+{start_of_part: Outro}
+[G]Midnight, [E]moonlight, mid-[C]night
+{end_of_part}

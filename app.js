@@ -58,8 +58,10 @@ const filterPills = document.querySelectorAll('.pill[data-filter]');
 const countAll = document.getElementById('count-all');
 const countOriginals = document.getElementById('count-originals');
 const countCovers = document.getElementById('count-covers');
+const performerSelect = document.getElementById('performer-select');
 
-let activeFilter = 'all';
+let activeTypeFilter = 'all';
+let activePerformerFilter = 'all';
 
 // ── Init ──
 async function init() {
@@ -76,6 +78,7 @@ async function init() {
     countOriginals.textContent = manifest.filter(s => s.type === 'original').length;
     countCovers.textContent = manifest.filter(s => s.type === 'cover').length;
 
+    populatePerformers();
     renderIndex();
     setupEvents();
 
@@ -87,20 +90,44 @@ async function init() {
     }
 }
 
+function populatePerformers() {
+    const performers = new Set();
+    manifest.forEach(s => {
+        if (s.performer) {
+            performers.add(s.performer.trim());
+        }
+    });
+    
+    const sorted = Array.from(performers).sort();
+    
+    performerSelect.innerHTML = '<option value="all">Every Performer</option>';
+    sorted.forEach(p => {
+        const opt = document.createElement('option');
+        opt.value = p;
+        opt.textContent = p;
+        performerSelect.appendChild(opt);
+    });
+}
+
 function renderIndex() {
     const query = searchInput.value.toLowerCase().trim();
     let filtered = manifest;
 
-    if (activeFilter !== 'all') {
-        filtered = filtered.filter(s => s.type === activeFilter);
+    if (activeTypeFilter !== 'all') {
+        filtered = filtered.filter(s => s.type === activeTypeFilter);
+    }
+    
+    if (activePerformerFilter !== 'all') {
+        filtered = filtered.filter(s => s.performer && s.performer.trim() === activePerformerFilter);
     }
 
     if (query) {
         filtered = filtered.filter(s =>
             s.title.toLowerCase().includes(query) ||
             (s.artist && s.artist.toLowerCase().includes(query)) ||
-            s.written_key.toLowerCase().includes(query) ||
-            s.absolute_key.toLowerCase().includes(query)
+            (s.performer && s.performer.toLowerCase().includes(query)) ||
+            (s.written_key && s.written_key.toLowerCase().includes(query)) ||
+            (s.absolute_key && s.absolute_key.toLowerCase().includes(query))
         );
     }
 
@@ -141,9 +168,15 @@ function setupEvents() {
         pill.addEventListener('click', () => {
             filterPills.forEach(p => p.classList.remove('active'));
             pill.classList.add('active');
-            activeFilter = pill.dataset.filter;
+            activeTypeFilter = pill.dataset.filter;
             renderIndex();
         });
+    });
+
+    // Performer dropdown
+    performerSelect.addEventListener('change', e => {
+        activePerformerFilter = e.target.value;
+        renderIndex();
     });
 
     // Song card clicks
