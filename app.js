@@ -140,7 +140,7 @@ function renderIndex() {
     }
 
     songGrid.innerHTML = filtered.map(song => {
-        const artistLine = song.type === 'cover' ? song.artist : 'Tio Savich';
+        const artistLine = song.performer ? song.performer : (song.type === 'cover' ? song.artist : 'Tio Savich');
         const tuningLabel = song.tuning === 'baritone' ? ' (Bari)' : '';
         return `
       <div class="song-card" data-filename="${song.filename}" tabindex="0" role="button">
