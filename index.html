@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hazy Hollows — Chord Book</title>
+  <meta name="description" content="Live performance chord charts for Hazy Hollows. Browse originals and covers with transpose toggle.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- ─── INDEX VIEW ─── -->
+  <div id="index-view" class="view active">
+    <header class="site-header">
+      <div class="header-content">
+        <h1 class="logo">Hazy Hollows</h1>
+        <p class="tagline">Chord Book</p>
+      </div>
+      <div class="controls">
+        <div class="search-box">
+          <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+          <input type="text" id="search-input" placeholder="Search songs..." autocomplete="off">
+        </div>
+        <div class="filter-pills">
+          <button class="pill active" data-filter="all">All <span class="count" id="count-all"></span></button>
+          <button class="pill" data-filter="original">Originals <span class="count" id="count-originals"></span></button>
+          <button class="pill" data-filter="cover">Covers <span class="count" id="count-covers"></span></button>
+        </div>
+      </div>
+    </header>
+    <main class="song-grid" id="song-grid">
+      <!-- Songs populated by JS -->
+    </main>
+  </div>
+
+  <!-- ─── SONG VIEW ─── -->
+  <div id="song-view" class="view">
+    <header class="song-header">
+      <button class="back-btn" id="back-btn" aria-label="Back to index">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M19 12H5m0 0l7 7m-7-7l7-7"/></svg>
+      </button>
+      <div class="song-title-area">
+        <h1 id="song-title"></h1>
+        <p id="song-meta"></p>
+      </div>
+      <div class="song-controls">
+        <div class="key-display">
+          <span class="key-label">Key</span>
+          <span class="key-value" id="key-display"></span>
+        </div>
+        <button class="transpose-toggle" id="transpose-toggle" aria-label="Toggle transposition">
+          <span class="toggle-label" id="toggle-label">Tio's Shapes</span>
+          <div class="toggle-track">
+            <div class="toggle-thumb"></div>
+          </div>
+        </button>
+        <div class="font-controls">
+          <button class="font-btn" id="font-down" aria-label="Decrease font size">A−</button>
+          <button class="font-btn" id="font-up" aria-label="Increase font size">A+</button>
+        </div>
+      </div>
+    </header>
+    <main class="song-body" id="song-body">
+      <!-- ChordPro content rendered here -->
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
