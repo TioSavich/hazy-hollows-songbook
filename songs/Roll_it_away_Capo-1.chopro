@@ -7,6 +7,8 @@
 {absolute_key: F#}
 {transpose: -1}
 {type: original}
+{comment: https://soundcloud.com/tio-savich/roll-it-away?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing&si=557ce777ca324649a35a346fadd8d3e4}
+{comment: Arrangement: Chorus chords, Bridge chords solo, then repeat chorus}
 
 {start_of_verse: Verse 1}
 [G]I’ve eaten gloo[A-]m 
@@ -58,5 +60,11 @@ Be the blue in growing green
 May you dance along the summer’s edge of dream
 {end_of_chorus}
 
+{comment: Instrumental break; play verse chords, then bridge chords while Rory solos, then repeat vocal chorus}
 
-
+{start_of_chorus: chorus}
+Roll it away, roll it away
+May the star of your tomorrow shine today
+Be the blue in growing green
+May you dance along the summer’s edge of dream
+{end_of_chorus}

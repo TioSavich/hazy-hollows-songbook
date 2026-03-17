@@ -27,6 +27,7 @@
           <option value="all">All Performers</option>
         </select>
         <div class="filter-pills">
+          <button class="pill" id="open-setlist-btn" style="border-color: var(--accent-bright); color: var(--accent-bright); background: rgba(139, 92, 246, 0.1);">Setlist <span class="count" id="setlist-count">0</span></button>
           <button class="pill active" data-filter="all">All <span class="count" id="count-all"></span></button>
           <button class="pill" data-filter="original">Originals <span class="count" id="count-originals"></span></button>
           <button class="pill" data-filter="cover">Covers <span class="count" id="count-covers"></span></button>
@@ -53,6 +54,12 @@
           <span class="key-label">Key</span>
           <span class="key-value" id="key-display"></span>
         </div>
+        <button class="transpose-toggle" id="noelle-toggle" style="display: none;" aria-label="Toggle Noelle's Version">
+          <span class="toggle-label">Noelle's Version</span>
+          <div class="toggle-track">
+            <div class="toggle-thumb"></div>
+          </div>
+        </button>
         <button class="transpose-toggle" id="transpose-toggle" aria-label="Toggle transposition">
           <span class="toggle-label" id="toggle-label">Tio's Shapes</span>
           <div class="toggle-track">
@@ -67,6 +74,48 @@
     </header>
     <main class="song-body" id="song-body">
       <!-- ChordPro content rendered here -->
+    </main>
+  </div>
+
+  <!-- ─── SETLIST VIEW ─── -->
+  <div id="setlist-view" class="view">
+    <header class="song-header">
+      <button class="back-btn" id="setlist-back-btn" aria-label="Back to index">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M19 12H5m0 0l7 7m-7-7l7-7"/></svg>
+      </button>
+      <div class="song-title-area">
+        <h1>Your Setlist</h1>
+        <p>Rearrange, remove, or clear your set.</p>
+      </div>
+      <div class="song-controls">
+        <button class="transpose-toggle" id="clear-setlist-btn">Clear list</button>
+        <button class="transpose-toggle active" id="play-setlist-btn" style="border-color: var(--accent); color: var(--text-primary); background: var(--accent);">Play Setlist</button>
+      </div>
+    </header>
+    <main class="setlist-grid" id="setlist-grid" style="padding: 24px; display: flex; flex-direction: column; gap: 12px; max-width: 800px; margin: 0 auto; width: 100%;">
+      <!-- Setlist items populated by JS -->
+    </main>
+  </div>
+
+  <!-- ─── PERFORMANCE VIEW ─── -->
+  <div id="performance-view" class="view">
+    <header class="song-header" style="position: sticky; top: 0; z-index: 100;">
+      <button class="back-btn" id="perf-back-btn" aria-label="Back to setlist">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M19 12H5m0 0l7 7m-7-7l7-7"/></svg>
+      </button>
+      <div class="song-title-area">
+        <h1>Performance Mode</h1>
+      </div>
+      <div class="song-controls">
+        <button class="transpose-toggle" id="perf-transpose-btn">Tio's Shapes</button>
+        <div class="font-controls">
+          <button class="font-btn" id="perf-font-down">A−</button>
+          <button class="font-btn" id="perf-font-up">A+</button>
+        </div>
+      </div>
+    </header>
+    <main class="song-body" id="performance-body" style="padding-bottom: 200px;">
+      <!-- Continuous scroll of songs -->
     </main>
   </div>
 

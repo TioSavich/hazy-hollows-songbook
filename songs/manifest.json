@@ -22,7 +22,14 @@
     "absolute_key": "F#",
     "transpose": -1,
     "type": "cover",
-    "comment": "Sing high, 180 BPM"
+    "comment": "Sing high, 180 BPM",
+    "start_of_part": "Intro",
+    "end_of_part}\n\n[D7][G]\n\n\n{start_of_verse": "Verse 1",
+    "end_of_verse}\n\n[G]They're gonna put me in the m[C]ovies\n[G]they're gonna make a big star out of m[D7]e\nWe'll [G]make a film about a man that's sad and l[C]onely\nand [D7]all I gotta do is act natural[G]ly\n\n\n{comment": "Middle",
+    "start_of_verse": "Verse 2",
+    "end_of_verse}\n\nWell I [G]hope you come and see me in the m[C]ovies\n[G]then I know that you will plainly [D7]see\nThe [G]biggest fool that ever hit the big[C] time\nand [D7]all I gotta do is act natural[G]ly\n\n\n{comment": "Guitar Solo",
+    "end_of_verse}\n\nWe'll [G]make the scene about a man that's sad and lo[C]nely\nand [G]beggin down upon his bended [D7]knee\nI'll [G]play the part but I won't need rehe[C]arsin'\nal[D7]l I gotta do is act natura[G]lly\n\n\n{comment": "Middle",
+    "end_of_verse}\n\nWell I [G]hope you come and see me in the m[C]ovies\n[G]then I know that you will plainly [D7]see\nThe [G]biggest fool that ever hit the big[C] time\nand [D7]all I gotta do is act natural[G]ly\n\n\n{start_of_part": "Outro"
   },
   {
     "filename": "Angel_from_Montgomery_Capo5.chopro",
@@ -60,7 +67,8 @@
     "key": "C",
     "absolute_key": "C",
     "transpose": 0,
-    "type": "cover"
+    "type": "cover",
+    "comment": "really walk the bass line down"
   },
   {
     "filename": "Avalanche_Drop_D_Db_maj_Capo0.chopro",
@@ -247,7 +255,14 @@
     "key": "C",
     "absolute_key": "C",
     "transpose": 0,
-    "type": "cover"
+    "type": "cover",
+    "start_of_part": "Intro",
+    "end_of_part}\n\n\n{start_of_verse": "Verse 1",
+    "end_of_verse}\n\n\n{start_of_verse": "Verse 2",
+    "end_of_verse}\n\n\n{start_of_chorus": "Chorus",
+    "end_of_chorus}\n\n\n{start_of_verse": "Verse 4",
+    "end_of_verse}\n\n\n{comment": "Instrumental break",
+    "start_of_chorus": "Chorus"
   },
   {
     "filename": "Flying_Shoes_Capo0.chopro",
@@ -259,7 +274,8 @@
     "key": "G",
     "absolute_key": "G",
     "transpose": 0,
-    "type": "cover"
+    "type": "cover",
+    "comment": "acapella"
   },
   {
     "filename": "Goodbye_Friends_Capo-1.chopro",
@@ -289,8 +305,7 @@
     "key": "D",
     "absolute_key": "C#",
     "transpose": -1,
-    "type": "cover",
-    "comment": "CHORUS"
+    "type": "cover"
   },
   {
     "filename": "Halleluiah_Capo1.chopro",
@@ -379,7 +394,12 @@
     "absolute_key": "G",
     "transpose": -5,
     "type": "cover",
-    "comment": "QUIET"
+    "start_of_part": "Intro",
+    "end_of_part}\n\n\n{start_of_verse": "Verse 4",
+    "end_of_verse}\n\n\n{start_of_part": "Solo",
+    "end_of_verse}\n\n\n{start_of_verse": "Verse 5",
+    "end_of_part}\n\n\n{start_of_part": "Outro",
+    "end_of_verse}\n\n\n\n\n{start_of_verse": "Verse 6"
   },
   {
     "filename": "Human_Wheels_Capo2.chopro",
@@ -429,8 +449,7 @@
     "key": "E",
     "absolute_key": "D#",
     "transpose": -1,
-    "type": "cover",
-    "comment": "WHISTLE"
+    "type": "cover"
   },
   {
     "filename": "Keep_on_the_Sunny_Side_Capo0.chopro",
@@ -502,6 +521,7 @@
     "performer": "Hazy Hollows",
     "capo": 0,
     "tuning": "standard",
+    "tempo": "120",
     "key": "F",
     "absolute_key": "F",
     "transpose": 0,
@@ -678,7 +698,8 @@
     "absolute_key": "A",
     "transpose": -5,
     "type": "original",
-    "tempo": "79"
+    "tempo": "75",
+    "start_of_part": "instrumental break"
   },
   {
     "filename": "Roll_it_away_Capo-1.chopro",
@@ -691,11 +712,14 @@
     "absolute_key": "F#",
     "transpose": -1,
     "type": "original",
+    "comment": "Arrangement: Chorus chords, Bridge chords solo, then repeat chorus",
     "start_of_verse": "Verse 1",
     "end_of_verse}\n\n{start_of_chorus": "Chorus",
     "end_of_chorus}\n\n{start_of_verse": "verse 3",
     "end_of_verse}\n\n{start_of_bridge": "Bridge",
-    "end_of_bridge}\n\n{start_of_chorus": "chorus"
+    "end_of_bridge}\n\n{start_of_chorus": "chorus",
+    "end_of_chorus}\n\n{comment": "Instrumental break; play verse chords, then bridge chords while Rory solos, then repeat vocal chorus",
+    "start_of_chorus": "chorus"
   },
   {
     "filename": "Sawdust_of_the_Floor_Drop_D_12_String_Mallory_Capo0.chopro",
@@ -832,7 +856,8 @@
     "key": "E",
     "absolute_key": "F#",
     "transpose": 2,
-    "type": "cover"
+    "type": "cover",
+    "comment": "Instrumental break"
   },
   {
     "filename": "Tecumseh_Valley_Capo-1.chopro",
@@ -845,7 +870,7 @@
     "absolute_key": "B",
     "transpose": -1,
     "type": "cover",
-    "comment": "PITCH HIGHER"
+    "comment": "comment: Tio melody, low"
   },
   {
     "filename": "The_Bear_Song_Drop_D_12_String_Mallory_Capo0.chopro",
@@ -935,7 +960,7 @@
     "absolute_key": "C#",
     "transpose": -1,
     "type": "cover",
-    "comment": "CHORUS"
+    "comment": "NOELLE MELODY"
   },
   {
     "filename": "The_Weight_Capo-1.chopro",
@@ -948,7 +973,7 @@
     "absolute_key": "G#",
     "transpose": -1,
     "type": "cover",
-    "comment": "NOELLE:"
+    "comment": "All"
   },
   {
     "filename": "Tiger_Mountain_Peasant_Song_Capo5.chopro",
@@ -986,7 +1011,7 @@
     "absolute_key": "F#",
     "transpose": -5,
     "type": "original",
-    "comment": "BREAK"
+    "tempo": "82"
   },
   {
     "filename": "Valley_in_the_Sky_Baritone_Capo0.chopro",
@@ -1013,6 +1038,7 @@
     "absolute_key": "G",
     "transpose": 0,
     "type": "original",
+    "comment": "Egg shaker, tamborine for hippy dippy section",
     "start_of_verse": "verse 1",
     "end_of_verse}\n\n{start_of_chorus": "chorus",
     "end_of_chorus}\n\n{start_of_verse": "verse 2",
@@ -1042,7 +1068,9 @@
     "key": "F",
     "absolute_key": "E",
     "transpose": -1,
-    "type": "cover"
+    "type": "cover",
+    "start_of_chorus": "Chorus",
+    "end_of_chorus}\n\nI know dark c[Am]louds are gath[G]ering oer me [Am]\nand I know my way is ro[Dm]ugh and steep[Am][G]\nBut beauteou[Am]s fiel[G]ds lie just before me[Am]\nAnd lilies [Dm]grow where angels[E7] weep [Am]\n\n{start_of_chorus": "Chorus \u2013 Harmonize up high"
   },
   {
     "filename": "Wild_Horses_Capo-1.chopro",
@@ -1055,7 +1083,7 @@
     "absolute_key": "A#",
     "transpose": -1,
     "type": "cover",
-    "comment": "NOELLE:"
+    "comment": "With Rory, break"
   },
   {
     "filename": "Willowed_and_Feathered_Baritone_Capo1.chopro",
@@ -1068,7 +1096,7 @@
     "absolute_key": "C-",
     "transpose": -4,
     "type": "original",
-    "comment": "F#m7b5 might be better thought of as Am6/F#"
+    "comment": "doubled intro, printing Tio's part"
   },
   {
     "filename": "Winter_Moon_Baritone_Capo0.chopro",

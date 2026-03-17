@@ -7,30 +7,62 @@
 {absolute_key: C}
 {transpose: 0}
 {type: cover}
+{start_of_part: Intro}
+[G][C][F#dim7][G#7][G7][C][F#dim7]
+[G#7][G7]
+{end_of_part}
 
-Sweet dreams      till sunbeams find you
-Sweet dreams that leave all worries behind you
-But in your dreams whatever they be
-[C] [F#dim7] [G#7] [G7]
-[C]Dream [F#dim7]a little dream [G#7]of me[G7]
-[C][Whist[F#dim7]le][G7][G#7]
-Stars shining bright above you
-[C]Night [C/B]bree[C/Bb]zes s[A7]eem to whisper I love you
-[F]Birds singing in[Fm] the sycamore tree
-Stars fading but I linger on, dear
-[C]Dream a lit[G#7]tle dream o[G]f me
-Still craving your kiss
-[C]I’[F#dim7]m longing to linge[G#7]r till daw[G7]n, dear
-Say nightie night and kiss me
-[C]Ju[C/B]st s[C/Bb]aying this[A7]
-Just hold me tight and tell me you’ll miss me
-[F]While I’m alone[Fm] and blue as can be
-[C]Sweet dream[G#7]s ti[G7]ll [C]su[E7]nbeams find you
-Dream a little dream of me
-Sweet dreams that leave all worries far behind you
-Stars f[F#m]ading but [Bm]I linger [E]on, dear
-But in your dreams whatever they be
-Still c[F#m]raving you[Bm]r k[E]iss
-Dream a little dream of me
-I’[F#m]m longing to l[Bm]inger till daw[E]n, dear
-Ju[F#m]st s[G#7]ayin[G7]g this
+
+{start_of_verse: Verse 1}
+[C] Stars [F#dim7]shining bright a[G#7]bove you[G7]
+[C] Night [C/B]breezes [C/Bb]seem to [A7]whisper I love you
+[F] Birds singing in the [Fm]sycamore tree
+[C]Dream a little [G#7]dream of me[G]
+{end_of_verse}
+
+
+{start_of_verse: Verse 2}
+[C] Say [F#dim7]nightie night and[G#7]   kiss me[G7]
+[C] Just [C/B]hold me [C/Bb]tight and [A7]tell me you'll miss me
+[F] While I'm alone and [Fm]blue as can be
+[C]Dream a little [G#7]dream [G7]of me[C][E7]
+{end_of_verse}
+
+
+{start_of_chorus: Chorus}
+[A] Stars [F#m]fading but [Bm]I linger [E]on, dear
+[A] Still [F#m]craving your[Bm]  kiss[E]
+[A] I'm [F#m]longing to [Bm]linger till dawn,[E] dear
+[A] Just [F#m]saying [G#7]this[G7]
+{end_of_chorus}
+
+
+{start_of_verse: Verse 3}
+[C] Sweet dreams[F#dim7]      till sunbeams[G#7]   find you[G7]
+[C] Sweet dreams[C/B]   that[C/Bb]    leave all [A7]worries behind you
+[F] But in your dreams what[Fm]ever they be
+[C]Dream a little [G#7]dream [G7]of [C]me
+{end_of_verse}
+
+
+{comment: Instrumental break}
+[C][F#dim7][G#7][G7][C][C/B][C/Bb][A7]
+[F][Fm][C][G#7][G7][C][E7]
+
+
+{start_of_chorus: Chorus}
+[A] Stars [F#m]fading but [Bm]I linger [E]on, dear
+[A] Still cra[F#m]ving your[Bm]  kiss[E]
+[A] I'm lon[F#m]ging to [Bm]linger till dawn,[E] dear
+[A] Just [F#m]saying [G#7]this[G7]
+{end_of_chorus}
+
+
+{start_of_verse: Verse 4}
+[C] Sweet [F#dim7]dreams till sunbeams[G#7]   find you[G7]
+[C]Sweet dreams[C/B]   that [C/Bb]leave all [A7]worries far behind you
+[F] But in your dreams what[Fm]ever they be
+[C]Dream a little [G#7]dream [G7]of me
+{end_of_verse}
+
+

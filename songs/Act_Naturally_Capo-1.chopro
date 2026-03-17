@@ -7,30 +7,70 @@
 {absolute_key: F#}
 {transpose: -1}
 {type: cover}
-
+{comment: Noelle plays bells}
 {comment: Sing high, 180 BPM}
-We’ll make the scene about a man that’s sad and lonely
-And begging down upon his bended knee
-[G]They’re gonna put me in[C] the moovies
-I’ll play the part and I won’t need rehearsing
-[G]They’re gonna make a big star[D7] out of me
-All I have to do is act naturally
-We’[G]ll make a film about a man that[C]’s sad and lonely
-An[D7]d all I gotta do is act[G] naturally
-Well, I’ll bet you I’m gonna be a big star
-Might win an Oscar you can never tell
-Well, I’[D7]ll bet you I’m gonna be a big s[G]tar
-The movies gonna make me a big star
-Mig[D7]ht win an Oscar you can never tell[G]
-‘Cause I can play the part so well
-Th[D7]e movies gonna make me a big star[G]
-‘Cau[A7]se I can play the part so w[D7]ell
-Well I hope you’ll come and see me in the movies
-Then I know that you will plainly see
-[G]G                      [C]C                             Verse Chord Pattern
-Well I hope you’ll come and see me in the movies
-The biggest fool that ever hit the big time    G     C
-[G]Then I know that you will plainly[D7] see
-And all I gotta do is act naturally            G     C
-[G]The biggest fool that e[C]ver hit the big time
-An[D7]d all I gotta do is ac[G]t naturally
+{start_of_part: Intro}
+{end_of_part}
+
+[D7][G]
+
+
+{start_of_verse: Verse 1}
+{end_of_verse}
+
+[G]They're gonna put me in the m[C]ovies
+[G]they're gonna make a big star out of m[D7]e
+We'll [G]make a film about a man that's sad and l[C]onely
+and [D7]all I gotta do is act natural[G]ly
+
+
+{comment: Middle}
+
+Well, I'll [D7]bet you I'm gonna be a [G]big star
+might [D7]win an Oscar you can never tell[G]
+the [D7]movies gonna make me a [G]big star
+'Cause [A7]I can play the part so well[D7]
+
+
+{start_of_verse: Verse 2}
+{end_of_verse}
+
+Well I [G]hope you come and see me in the m[C]ovies
+[G]then I know that you will plainly [D7]see
+The [G]biggest fool that ever hit the big[C] time
+and [D7]all I gotta do is act natural[G]ly
+
+
+{comment: Guitar Solo}
+
+[D7][G][D7][G]
+
+
+{start_of_verse: Verse 3}
+{end_of_verse}
+
+We'll [G]make the scene about a man that's sad and lo[C]nely
+and [G]beggin down upon his bended [D7]knee
+I'll [G]play the part but I won't need rehe[C]arsin'
+al[D7]l I gotta do is act natura[G]lly
+
+
+{comment: Middle}
+
+Well, I'll [D7]bet you I'm gonna be a [G]big star
+might [D7]win an Oscar you can never tell[G]
+the [D7]movies gonna make me a [G]big star
+'Cause [A7]I can play the part so well[D7]
+
+
+{start_of_verse: Verse 2}
+{end_of_verse}
+
+Well I [G]hope you come and see me in the m[C]ovies
+[G]then I know that you will plainly [D7]see
+The [G]biggest fool that ever hit the big[C] time
+and [D7]all I gotta do is act natural[G]ly
+
+
+{start_of_part: Outro}
+{end_of_part}

@@ -321,6 +321,38 @@ body {
   text-transform: uppercase;
 }
 
+.add-to-setlist-btn {
+  position: absolute;
+  top: 50px;
+  right: 16px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: var(--bg-deep);
+  color: var(--text-primary);
+  font-size: 1.2rem;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all var(--transition);
+  z-index: 10;
+}
+
+.add-to-setlist-btn:hover {
+  background: var(--bg-surface);
+  border-color: var(--accent-dim);
+}
+
+.add-to-setlist-btn.added {
+  background: var(--accent);
+  color: var(--bg-deep);
+  border-color: var(--accent);
+  font-weight: 700;
+}
+
 .card-type.original {
   background: var(--original-bg);
   color: var(--original);
@@ -588,6 +620,96 @@ body {
   font-weight: 400;
   font-size: 0.9em;
   padding: 6px 0;
+}
+
+/* Audio Embeds */
+.audio-embed {
+  margin: 16px 0;
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.audio-link {
+  display: inline-block;
+  margin: 16px 0;
+  padding: 8px 16px;
+  background: var(--bg-elevated);
+  color: var(--text-primary);
+  text-decoration: none;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  font-size: 0.9rem;
+  transition: all var(--transition);
+}
+
+.audio-link:hover {
+  background: var(--bg-surface);
+  border-color: var(--accent);
+  color: var(--accent-bright);
+}
+
+/* Song Sections */
+.song-section {
+  position: relative;
+  margin: 24px 0;
+  padding: 16px 0 16px 20px;
+  border-left: 3px solid var(--border);
+  border-radius: 0 8px 8px 0;
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.section-label {
+  position: absolute;
+  top: -12px;
+  left: 16px;
+  background: var(--bg-deep);
+  padding: 0 8px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+/* Specific Section Accents */
+.song-section.verse {
+  border-left-color: var(--text-muted);
+}
+.song-section.verse .section-label {
+  color: var(--text-muted);
+}
+
+.song-section.chorus {
+  border-left-color: var(--accent);
+  background: rgba(139, 92, 246, 0.05);
+}
+.song-section.chorus .section-label {
+  color: var(--accent-bright);
+}
+
+.song-section.bridge {
+  border-left-color: #ec4899; /* pink-500 */
+  background: rgba(236, 72, 153, 0.05);
+}
+.song-section.bridge .section-label {
+  color: #ec4899;
+}
+
+.song-section.intro,
+.song-section.outro,
+.song-section.instrumental,
+.song-section.instrumental-break,
+.song-section.solo {
+  border-left-color: #10b981; /* emerald-500 */
+  background: rgba(16, 185, 129, 0.03);
+}
+.song-section.intro .section-label,
+.song-section.outro .section-label,
+.song-section.instrumental .section-label,
+.song-section.instrumental-break .section-label,
+.song-section.solo .section-label {
+  color: #10b981;
 }
 
 .section-break {
